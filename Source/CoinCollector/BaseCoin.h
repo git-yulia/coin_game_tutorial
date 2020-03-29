@@ -38,4 +38,7 @@ public:
 	float RotationRate;
 
 	void PlayCustomDeath();
+
+	UFUNCTION()
+	void OnOverlap(AActor * OverlappedActor, AActor * OtherActor); 
 };
